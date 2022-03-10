@@ -1,3 +1,4 @@
-export function pascalToSnake(){
-    return -2
+export const pascalToSnake = (message) => {
+    return message
 }
+
