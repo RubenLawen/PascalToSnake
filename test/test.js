@@ -23,10 +23,10 @@ describe("pascalToSnake", function() {
     assert.equal(pascalToSnake("Home"), "home");
   });
   it('should return play-movie', function() {
-    assert.equal(pascalToSnake("play-movie"), "play-movie ");
+    assert.equal(pascalToSnake("play-movie"), "play-movie");
   });
-  it('should return \"1\"', function() {
-    assert.equal(pascalToSnake("1"), "\"1\"");
+  it('should return \'1\'', function() {
+    assert.equal(pascalToSnake(1), "1");
   });
 
 });
